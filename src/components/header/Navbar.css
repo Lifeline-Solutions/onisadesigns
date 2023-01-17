@@ -52,13 +52,13 @@ li {
   gap: 1rem;
   position: fixed;
 
-  top: 7vh;
+  top: 8vh;
   right: 0;
   width: 20%;
   height: 93vh;
   background: #9e1b1d;
   flex-direction: column;
-  z-index: 1;
+  z-index: 1000;
   transform: translateX(100%);
   transition: transform 0.5s ease-in;
 }
