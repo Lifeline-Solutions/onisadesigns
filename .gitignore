@@ -6,6 +6,8 @@
 .pnp.js
 /hint-report
 
+.history
+
 # testing
 /coverage
 
