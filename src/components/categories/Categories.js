@@ -4,9 +4,9 @@ import './Categories.css';
 const Categories = () => (
   <div className="container">
     <div className="cards">
-      <span></span>
-      <span></span>
-      <span></span>
+      <span />
+      <span />
+      <span />
 
       <div className="content">
         <h2>01</h2>
@@ -20,9 +20,9 @@ const Categories = () => (
     </div>
 
     <div className="cards">
-      <span></span>
-      <span></span>
-      <span></span>
+      <span />
+      <span />
+      <span />
 
       <div className="content">
         <h2>02</h2>
@@ -36,9 +36,9 @@ const Categories = () => (
     </div>
 
     <div className="cards">
-      <span></span>
-      <span></span>
-      <span></span>
+      <span />
+      <span />
+      <span />
 
       <div className="content">
         <h2>03</h2>
