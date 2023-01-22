@@ -1,4 +1,9 @@
 import React, { useState } from 'react';
+import { HiOutlineMail } from 'react-icons/hi';
+import { FaFacebookSquare } from 'react-icons/fa';
+import { IoLogoInstagram } from 'react-icons/io';
+import { BiPhoneCall, BiWorld } from 'react-icons/bi';
+import { GoLocation } from 'react-icons/go';
 import logo from '../../assets/images/logo.png';
 import './Navbar.css';
 
@@ -23,6 +28,35 @@ const Navbar = () => {
     <nav className="nav">
       <div className="logo-div">
         <img src={logo} alt="logo" className="logo" />
+      </div>
+      <div className="icons">
+        <div className="number-icon">
+          <div className="phone-icon">
+            <BiPhoneCall className="p-icon" />
+            <span className="number">+254 700 000 000</span>
+          </div>
+
+          <div className="column-icon">
+            <GoLocation />
+            <span className="location">Nairobi, Kenya</span>
+          </div>
+        </div>
+
+        <div className="email-icons">
+          <div className="column-icon">
+            <HiOutlineMail />
+            <span className="email">onisadesigns@gmail.com</span>
+          </div>
+          <div className="column-icon">
+            <BiWorld />
+            <span>www.onisadesigns.com</span>
+          </div>
+        </div>
+
+        <div className="social-icons">
+          <FaFacebookSquare />
+          <IoLogoInstagram />
+        </div>
       </div>
       <div className="nav-links">
         <ul className={active}>

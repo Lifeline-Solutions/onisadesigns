@@ -1,8 +1,9 @@
 import React from 'react';
+import './Categories.css';
 
 const Categories = () => (
   <div className="container">
-    <div className="card">
+    <div className="cards">
       <span></span>
       <span></span>
       <span></span>
@@ -18,7 +19,7 @@ const Categories = () => (
       </div>
     </div>
 
-    <div className="card">
+    <div className="cards">
       <span></span>
       <span></span>
       <span></span>
@@ -34,7 +35,7 @@ const Categories = () => (
       </div>
     </div>
 
-    <div className="card">
+    <div className="cards">
       <span></span>
       <span></span>
       <span></span>

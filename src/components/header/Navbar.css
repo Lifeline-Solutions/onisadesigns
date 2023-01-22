@@ -19,17 +19,20 @@ li {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  width: 100%;
+  position: fixed;
+  z-index: 1000;
   height: 13vh;
   background: #9e1b1d;
 }
 
 .logo-div {
   background-color: #fff;
+  height: 100%;
 }
 
 .logo {
   width: 10rem;
-  height: 13vh;
   padding: 0 1rem;
 }
 
@@ -79,7 +82,35 @@ li {
   transform: rotate(45deg) translate(-5px, -6px);
 }
 
+.icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.number-icon,
+.email-icons {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.social-icons {
+  display: flex;
+}
+
 @media screen and (max-width: 768px) {
+  .nav {
+    height: 16vh;
+  }
+  .number-icon,
+  .email-icons {
+    display: flex;
+    align-items: center;
+    gap: 0 !important;
+    flex-direction: column;
+  }
   .nav-menu {
     width: 47%;
   }
