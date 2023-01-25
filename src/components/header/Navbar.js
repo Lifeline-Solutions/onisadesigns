@@ -1,10 +1,8 @@
 import React, { useState } from 'react';
 import { HiOutlineMail } from 'react-icons/hi';
-import { FaFacebookSquare } from 'react-icons/fa';
-import { IoLogoInstagram } from 'react-icons/io';
-import { BiPhoneCall, BiWorld } from 'react-icons/bi';
-import { GoLocation } from 'react-icons/go';
-import logo from '../../assets/images/logo.png';
+import { BiPhoneCall } from 'react-icons/bi';
+
+import logo from '../../assets/images/onis.png';
 import './Navbar.css';
 
 const Navbar = () => {
@@ -37,25 +35,9 @@ const Navbar = () => {
           </div>
 
           <div className="column-icon">
-            <GoLocation />
-            <span className="location">Nairobi, Kenya</span>
-          </div>
-        </div>
-
-        <div className="email-icons">
-          <div className="column-icon">
             <HiOutlineMail />
             <span className="email">onisadesigns@gmail.com</span>
           </div>
-          <div className="column-icon">
-            <BiWorld />
-            <span>www.onisadesigns.com</span>
-          </div>
-        </div>
-
-        <div className="social-icons">
-          <FaFacebookSquare />
-          <IoLogoInstagram />
         </div>
       </div>
       <div className="nav-links">

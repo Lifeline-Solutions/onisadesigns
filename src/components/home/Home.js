@@ -2,9 +2,9 @@ import React from 'react';
 import { Carousel } from 'react-bootstrap';
 import 'bootstrap/dist/js/bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import image from '../../assets/images/image1.jpg';
-import rates2 from '../../assets/images/image2.jpg';
-import rates3 from '../../assets/images/image3.jpg';
+import image from '../../assets/images/gloves2.jpg';
+import rates2 from '../../assets/images/kijani.png';
+import rates3 from '../../assets/images/Revinyo.png';
 
 const Home = () => (
   <div style={{ overflow: 'none' }}>
