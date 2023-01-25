@@ -1,9 +1,7 @@
 import React from 'react';
 import './Categories.css';
-import image from '../../assets/images/gloves2.jpg';
 import kijani from '../../assets/images/kijani.png';
 import doworrio from '../../assets/images/smalldo.png';
-import rates3 from '../../assets/images/Revinyo.png';
 import onisa from '../../assets/images/logosmall.png';
 
 const Categories = () => (
