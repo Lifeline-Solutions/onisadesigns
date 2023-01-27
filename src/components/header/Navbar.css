@@ -81,6 +81,16 @@ li {
   text-decoration: none;
 }
 
+.instagram a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.instagram a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
 .phone:hover {
   color: #fff;
   text-decoration: none;
@@ -148,18 +158,21 @@ li {
 
 @media screen and (max-width: 768px) {
   .nav {
-    height: 16vh;
+    height: 8.5vh;
   }
 
   .number-icon,
   .email-icons {
     display: flex;
     align-items: center;
-    gap: 0 !important;
-    flex-direction: column;
   }
 
   .nav-menu {
     width: 47%;
+  }
+  .number,
+  .email,
+  .instagram {
+    display: none;
   }
 }

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BiPhoneCall } from 'react-icons/bi';
+import { BsInstagram } from 'react-icons/bs';
 
 import logo from '../../assets/images/onis.png';
 import spear from '../../assets/images/spear.png';
@@ -28,6 +29,7 @@ const Navbar = () => {
     const spear = e.target.parentElement.children[1];
     if (spear.classList.contains('hidden')) {
       spear.classList.remove('hidden');
+      spear.style.animation = 'spear 1s ease-in-out';
 
       setTimeout(() => {
         spear.classList.add('hidden');
@@ -50,8 +52,23 @@ const Navbar = () => {
           </div>
 
           <div className="column-icon">
-            <HiOutlineMail />
-            <span className="email">onisadesigns@gmail.com</span>
+            <a href="mailto:onisadesigns@gmail.com" className="email">
+              <HiOutlineMail />
+              <span className="email">onisadesigns@gmail.com</span>
+            </a>
+          </div>
+
+          <div className="column-icon">
+            <BsInstagram />
+            <span className="instagram">
+              <a
+                href="https://www.instagram.com/onisa_designs/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                @onisa_designs
+              </a>
+            </span>
           </div>
         </div>
       </div>
