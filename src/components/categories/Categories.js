@@ -2,7 +2,7 @@ import React from 'react';
 import './Categories.css';
 import kijani from '../../assets/images/kijani.png';
 import doworrio from '../../assets/images/smalldo.png';
-import onisa from '../../assets/images/logosmall.png';
+import onisa from '../../assets/images/Oonisa.png';
 
 const Categories = () => (
   <div className="container" style={{ marginTop: '50px' }}>
