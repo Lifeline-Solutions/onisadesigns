@@ -52,10 +52,10 @@ const Navbar = () => {
           </div>
 
           <div className="column-icon">
-            <a href="mailto:onisadesigns@gmail.com" className="email">
-              <HiOutlineMail />
-              <span className="email">onisadesigns@gmail.com</span>
-            </a>
+            <HiOutlineMail />
+            <span className="email">
+              <a href="mailto:onisadesigns@gmail.com">onisadesigns@gmail</a>
+            </span>
           </div>
 
           <div className="column-icon">
