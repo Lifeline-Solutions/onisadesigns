@@ -82,13 +82,13 @@ li {
 }
 
 .instagram a,
-.email {
+.email a {
   color: #fff;
   text-decoration: none;
 }
 
 .instagram a:hover,
-.email:hover {
+.email a:hover {
   color: #fff;
   text-decoration: none;
 }
@@ -173,7 +173,7 @@ li {
   }
 
   .nav-menu {
-    width: 47%;
+    width: 50%;
   }
 
   .number,
