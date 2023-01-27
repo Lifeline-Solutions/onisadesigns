@@ -181,4 +181,8 @@ li {
   .instagram {
     display: none;
   }
+
+  .footer {
+    height: 140px;
+  }
 }
