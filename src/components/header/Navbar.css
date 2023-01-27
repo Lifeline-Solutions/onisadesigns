@@ -119,12 +119,15 @@ li {
   color: #fff;
   transform: scale(1.1);
 }
+
 .hidden {
   display: none;
 }
+
 .spear {
   transition: 0.5s ease-in;
 }
+
 .toggle .line1 {
   transform: rotate(-45deg) translate(-5px, 6px);
 }
@@ -170,6 +173,7 @@ li {
   .nav-menu {
     width: 47%;
   }
+
   .number,
   .email,
   .instagram {
