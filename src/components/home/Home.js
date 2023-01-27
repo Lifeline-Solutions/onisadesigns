@@ -16,9 +16,6 @@ const Home = () => (
           alt="stock"
           style={{ height: '100vh' }}
         />
-        <Carousel.Caption>
-          <h3>Get marvelous designs 💯</h3>
-        </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
@@ -27,9 +24,6 @@ const Home = () => (
           className="d-block w-100 img-fluid"
           style={{ height: '100vh' }}
         />
-        <Carousel.Caption>
-          <h3>Get aesthetic beauty 😇</h3>
-        </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img
@@ -38,9 +32,6 @@ const Home = () => (
           className="d-block w-100 img-fluid"
           style={{ height: '100vh' }}
         />
-        <Carousel.Caption>
-          <h3>We make your place look better👌</h3>
-        </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
   </div>
