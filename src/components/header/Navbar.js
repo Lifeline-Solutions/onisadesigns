@@ -3,6 +3,7 @@ import { HiOutlineMail } from 'react-icons/hi';
 import { BiPhoneCall } from 'react-icons/bi';
 
 import logo from '../../assets/images/onis.png';
+import spear from '../../assets/images/spear.png';
 import './Navbar.css';
 
 const Navbar = () => {
@@ -22,6 +23,18 @@ const Navbar = () => {
       setToggleItem('nav-toggler');
     }
   };
+
+  const toggleSpear = (e) => {
+    const spear = e.target.parentElement.children[1];
+    if (spear.classList.contains('hidden')) {
+      spear.classList.remove('hidden');
+
+      setTimeout(() => {
+        spear.classList.add('hidden');
+      }, 1000);
+    }
+  };
+
   return (
     <nav className="nav">
       <div className="logo-div">
@@ -30,8 +43,10 @@ const Navbar = () => {
       <div className="icons">
         <div className="number-icon">
           <div className="phone-icon">
-            <BiPhoneCall className="p-icon" />
-            <span className="number">+254 700 000 000</span>
+            <a href="tel:+254700000000" className="phone">
+              <BiPhoneCall className="p-icon" />
+              <span className="number">+254 700 000 000</span>
+            </a>
           </div>
 
           <div className="column-icon">
@@ -42,9 +57,19 @@ const Navbar = () => {
       </div>
       <div className="nav-links">
         <ul className={active}>
-          <li className="nav-item">Kijani</li>
-          <li className="nav-item">Kijani</li>
-          <li className="nav-item">Kijani</li>
+          <div className="spear-div" onClick={toggleSpear}>
+            <li className="nav-item"> Kijani</li>
+            <img src={spear} alt="spear" className="spear hidden" />
+          </div>
+          <div className="spear-div" onClick={toggleSpear}>
+            <li className="nav-item">Kijani</li>
+            <img src={spear} alt="spear" className="spear hidden" />
+          </div>
+
+          <div className="spear-div" onClick={toggleSpear}>
+            <li className="nav-item">Kijani</li>
+            <img src={spear} alt="spear" className="spear hidden" />
+          </div>
         </ul>
       </div>
 
