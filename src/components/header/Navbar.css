@@ -81,12 +81,14 @@ li {
   text-decoration: none;
 }
 
-.instagram a {
+.instagram a,
+.email {
   color: #fff;
   text-decoration: none;
 }
 
-.instagram a:hover {
+.instagram a:hover,
+.email:hover {
   color: #fff;
   text-decoration: none;
 }
